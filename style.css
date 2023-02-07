@@ -1,0 +1,167 @@
+html, body{
+  font-family: 'Noto Sans TC', sans-serif;
+  margin: 0px;/*才會貼合瀏覽器邊界*/
+  padding: 0px;/*才會貼合瀏覽器邊界*/
+  color: #333333;
+  background-color: #f6f7f8;
+}
+
+
+/*header*/
+header{
+  outline: 0px solid tomato;
+  height: 60px;
+  color: #666666;
+  box-shadow: 0px 4px  12px 0px rgba(0,0,0,0.08);
+}
+
+nav{
+  outline: 0px solid tomato;
+  max-width: 840px;
+  margin: 0px auto;
+  height: 100%;
+  padding: 0px 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title{
+  outline: 0px solid tomato;
+  font-weight: bold;
+  letter-spacing: 1px
+}
+
+.nav-link{
+  outline: 0px solid tomato;
+  color: Steelblue;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  color: Dodgerblue;
+}
+
+.nav-link:hover::before {
+  content: attr(data-text);
+  left: 0;
+  color: #666666;
+  padding: 5px;
+}
+
+
+/*main*/
+main{
+  outline: 0px solid tomato;
+  max-width: 780px;
+  padding: 40px 20px;
+  margin: 0px auto; 
+}
+
+h2{
+  outline: 0px solid tomato;
+  font-size: 32px;
+  margin: 24px 0px 0px;  
+  padding: 0px;
+}
+
+h3{
+  outline: 0px solid tomato;
+  font-size: 22px;
+  margin: 0px;
+  padding: 0 10px;
+  font-weight: 500;
+}
+
+section{
+  outline: 0px solid tomato;
+}
+
+p{
+  color: #666666;
+  margin: 0px;
+  font-size: 16px;
+}
+
+
+/*personal-info*/
+.personal-info{
+  outline: 0px solid tomato;
+  padding: 0 auto;
+  text-align: center;
+}
+
+.avatar{
+  outline: 1px solid #666666;
+  border-radius: 50%;
+  
+}
+
+.name{
+  outline: 0px solid tomato; 
+  font-size: 32px;
+  margin: 0px auto;
+}
+
+.self-description{
+  outline: 0px solid tomato; 
+  text-align: left;
+}
+
+
+/*social-media*/
+.social-media{
+  outline: 0px solid tomato; 
+  margin: 0 auto 20px;
+}
+
+.social-media-link{
+  outline: 0px solid tomato; 
+  margin: 6px;
+  text-decoration: none;
+  color: Steelblue;
+}
+
+.social-media-link:hover {
+  color: Dodgerblue;
+}
+
+/*skills*/
+.skills-description{
+  outline: 0px solid tomato;
+  padding: 0px 10px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  outline: 0px solid tomato;
+  border-top: 1px solid Steelblue;
+  font-size: 18px;
+  margin: 0px 10px;
+  padding: 0 50px;
+
+}
+
+/*portfolio*/
+.portfolio-description{
+  outline: 0px solid tomato;
+  margin: 0px;
+  padding: 10px;
+  list-style-type: none;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-description-text{
+  outline: 0px solid tomato;
+  margin: 0px;
+  padding: 0px 75px;
+  list-style-type: none;
+  
+  display: flex;
+  justify-content: space-between;
+}
